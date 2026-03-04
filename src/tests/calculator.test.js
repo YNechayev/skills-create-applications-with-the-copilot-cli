@@ -140,7 +140,7 @@ describe('Calculator Functions', () => {
     });
   });
 
-  describe('Modulo', () => {
+  describe('modulo', () => {
     test('should calculate modulo of two positive numbers', () => {
       expect(modulo(5, 2)).toBe(1);
     });
@@ -174,7 +174,7 @@ describe('Calculator Functions', () => {
     });
   });
 
-  describe('Power', () => {
+  describe('power', () => {
     test('should calculate power with positive exponent', () => {
       expect(power(2, 3)).toBe(8);
     });
@@ -216,7 +216,7 @@ describe('Calculator Functions', () => {
     });
   });
 
-  describe('Square Root', () => {
+  describe('squareroot', () => {
     test('should calculate square root of perfect square', () => {
       expect(squareRoot(16)).toBe(4);
     });
