@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest"
   },
+  "jest": {
+    "testMatch": ["**/*.tests.js"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YNechayev/skills-create-applications-with-the-copilot-cli.git"
